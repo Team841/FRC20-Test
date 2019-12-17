@@ -208,7 +208,7 @@ Children:
           name: Command
           type: Command
           validators: *id006
-          value: Drive
+          value: ledQT
         When to Run: !!robotbuilder.data.properties.ChoicesProperty
           choices: *id007
           default: whileHeld
@@ -237,7 +237,7 @@ Children:
           name: Command
           type: Command
           validators: *id006
-          value: Drive
+          value: ledRT
         When to Run: !!robotbuilder.data.properties.ChoicesProperty
           choices: *id007
           default: whileHeld
@@ -412,12 +412,10 @@ Properties:
     name: Export Subsystems, validators: null, value: true}
   Simulation World File: !!robotbuilder.data.properties.StringProperty {default: /usr/share/frcsim/worlds/GearsBotDemo.world,
     name: Simulation World File, validators: null, value: /usr/share/frcsim/worlds/GearsBotDemo.world}
-  Wiring file location: !!robotbuilder.data.properties.FileProperty {default: 'C:\Users\Team
-      841\', extension: null, folder: true, name: Wiring file location, validators: null,
-    value: 'C:\Users\Team 841\'}
-  Export Directory: !!robotbuilder.data.properties.FileProperty {default: 'C:\Users\Team
-      841\FRCProjects', extension: null, folder: true, name: Export Directory, validators: null,
-    value: 'C:\Team841_Repositories\FRC20-Test'}
+  Wiring file location: !!robotbuilder.data.properties.FileProperty {default: 'C:\Users\samst\',
+    extension: null, folder: true, name: Wiring file location, validators: null, value: 'C:\Users\samst'}
+  Export Directory: !!robotbuilder.data.properties.FileProperty {default: 'C:\Users\samst\FRCProjects',
+    extension: null, folder: true, name: Export Directory, validators: null, value: 'C:\Users\samst\Documents\GitHub\FRC20-Test'}
   Autonomous Command: !!robotbuilder.data.properties.TypeSelectionProperty {default: None,
     name: Autonomous Command, type: Command, validators: null, value: Autonomous Command}
 Base: Robot
