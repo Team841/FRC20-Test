@@ -43,7 +43,7 @@ public class Drive extends Command {
     // Called repeatedly when this Command is scheduled to run
     @Override
     protected void execute() {
-        Robot.driveTrain.Drive(Robot.oi.getDriver());
+        Robot.driveTrain.Drive(Robot.oi.getdriver());
 
     }
 
